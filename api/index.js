@@ -1,4 +1,5 @@
 // package
+//dotenv.config();
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv"
@@ -12,19 +13,17 @@ import authRoutes from "./routes/auth.routes.js"
 const app = express();
 
 dotenv.config();
-app.use(express.json())
+app.use(express.json());
 app.use(cookieParser());
 
 
 const Url = process.env.Mongo_Url;
 const port = process.env.Port
 
+console.log("MongoDB URI:", Url);
+console.log("Port:", port);
 
-
-
-
-
-
+console.log("Environment variables:", process.env);
 
 
 app.listen(port,( ) => {

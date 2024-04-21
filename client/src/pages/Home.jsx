@@ -3,9 +3,9 @@ import CallToAction from '../components/CallToAction';
 import CallToAction1 from '../components/CallToAction1';
 import { useEffect, useState } from 'react';
 import PostCard from '../components/PostCard';
-import Logo from "../assets/photo1712342755 (3).jpeg"
-import Logo1 from "../assets/photo1712342755 (4).jpeg"
-import Logo2 from "../assets/photo1712342755 (5).jpeg"
+import Logo from "../assets/photo_2024-04-21_05-30-21.jpg"
+import Logo1 from "../assets/photo_2024-04-21_05-30-17.jpg"
+import Logo2 from "../assets/photo_2024-04-21_05-30-10.jpg"
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 
@@ -32,12 +32,11 @@ export default function Home() {
          <p className='text-gray-500 text-sm  sm:text-sm  mt-10  ' dir='rtl'>
                                    مرحبًا بكم
                                 في  
-                                شركة القاسم   
+                            شركة صان رايز   
 
          
          وجهتكم الأولى لخدمات توصيل عفش المنزل 
-               بأمان ومهنية. 
-
+                بأمان ومهنية بالسعودية 
         </p> 
         <p className='text-gray-500 text-sm sm:text-sm   ' dir='rtl'>
         نعدكم بتجربة فريدة تجمع بين السرعة والجودة والراحة      
@@ -53,7 +52,7 @@ export default function Home() {
           </p> 
          
           <p className='text-gray-500 text-sm sm:text-sm   ' dir='rtl'>
-          اختر شركة قاسم لنقل العفش والأثاث و
+          اختر شركة صان رايز  لنقل العفش والأثاث و
           استمتع براحة البال 
 
           </p> 
@@ -94,19 +93,7 @@ export default function Home() {
      </a>
       </div>
 
-
-
-
-
-
-
-
-
-
       </div>
-
-      
-
       <div className='p-3 bg-amber-100 dark:bg-slate-700'>
         <CallToAction Logo={Logo1} />
         <CallToAction1 Logo={Logo2 } />

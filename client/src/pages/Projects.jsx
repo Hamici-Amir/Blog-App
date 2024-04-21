@@ -1,5 +1,5 @@
 
-import Logo from "../assets/photo1712342755 (2).jpeg"
+import Logo from "../assets/photo_2024-04-20_17-03-52.jpg"
 import CallToAction2 from '../components/CallToAction2';
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className='min-h-screen max-w-2xl mx-auto w-100 flex justify-center items-center flex-col gap-6 p-3'>
       <h1 className='text-3xl font-semibold'>Contact us  </h1>
-      <p className='text-md text-gray-500'>              اختر شركة قاسم لنقل العفش والأثاث واستمتع براحة البال خلال عملية النقل
+      <p className='text-md text-gray-500'>              اختر شركة صان رايز  لنقل العفش والأثاث واستمتع براحة البال خلال عملية النقل
  </p>
 
     <div className='w-50 h-8    items-center flex justify-between m-0  mx-auto  ' >     
@@ -28,9 +28,6 @@ export default function Projects() {
      </p>
      </a>
       </div>
-      
-
-
       <CallToAction2  Logo={Logo} />
 
     </div>

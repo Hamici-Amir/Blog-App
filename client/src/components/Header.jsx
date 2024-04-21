@@ -62,7 +62,7 @@ export default function Header() {
         className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
       >
        <span className='px-2 py-1 bg-cyan-600 rounded-lg text-white'>
-              نقل العفش بالكويت 
+              نقل العفش بالسعودية 
         </span>
        
       </Link>
